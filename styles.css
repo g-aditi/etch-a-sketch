@@ -1,0 +1,107 @@
+html {
+    background-color: #181818; 
+    /* background-size: 100%; */
+    border-image: linear-gradient(to right, #3a86ff 25%, #8338ec 25%, #ff006e 50%, #fb5607 50%, #ffbe0b 75%, #0aff99 75%) 100;
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 111px;
+    margin-top: 2px;
+    overflow-x:hidden;
+}
+
+#side-menu {
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 4%;
+    float: left;
+    background-color: #202020;
+    border-radius: 20px;
+    height: 500px;
+    border-image: linear-gradient(to right, #3a86ff 25%, #8338ec 25%, #ff006e 50%, #fb5607 50%, #ffbe0b 75%, #0aff99 75%) 50;
+    border-width: 1px;
+    border-style: solid;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d8e2dc;
+    font-size: 20px;
+    margin: 0px -24%;
+}
+
+#clear-button{
+    margin-left: 34%;
+    margin-top: 7%;
+}
+
+button {
+    background-color: #394656;
+    border-color: #283618;
+    border-width: 1px;
+    font-size: 17px;
+    color: #d8e2dc;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+button:disabled {
+    background-color: #adb5bd;
+}
+
+button:hover {
+    border-radius: 100px;
+}
+
+
+input[type="color"] {
+	display: block;
+	width: 20%;
+	height: 7%;
+    border-radius: 2px;
+    margin-left: 40%;
+}
+
+.title {
+    font-family: 'Gluten', cursive;
+    /* color: #d8e2dc; */
+    font-size: 50px;
+    margin: 0px 39%;
+    background-image: linear-gradient(to right, #3a86ff, #8338ec, #ff006e, #fb5607, #ffbe0b, #0aff99);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.grid-size {
+    margin-left: 50%;
+    margin-top: 4%;
+}
+
+.grid-button {
+    margin-top: 7%;
+    position: relative;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
+}
+
+#container {
+    display: grid;
+    width: 30%;
+    grid-template-rows: repeat(var(--grid-rows));
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    margin-left: 50%;
+    margin-top: 6%;
+    margin-bottom: 0px;
+}
+  
+.grid-item {
+    padding: 45%;
+    border: 0.5px solid #343a40;
+    text-align: center;
+}
+
+
+
+
+
