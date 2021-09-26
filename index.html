@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Gluten&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./Images/favicon.ico"/>
+    <script src="script.js" defer></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <div>
+        <h3>
+            <span class='title'>Etch-a-Sketch</span>
+        </h3>
+        <div id='side-menu'>
+            <br><h5 style="margin-left: 37%;">Pen Color</h5><br>
+            <input type='color' value='#CAFE48' id='colorOption'>
+            <button id='clear-button' onClick="window.location.reload();">Clear Grid</button>
+            <div class='grid-size'>
+                <br><h5>Grid Size</h5><br>
+                <button class="grid-button" id='size-opt-1' value='9'>9x9</button><br>
+                <button class="grid-button" id='size-opt-2' value='12'>12x12</button><br>
+                <button class="grid-button" id='size-opt-3' value='16'>16x16</button>
+            </div>  
+        </div>     
+        <div id="container"></div>
+    </div>
+</body>
+</html>
