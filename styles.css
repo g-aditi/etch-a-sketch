@@ -65,7 +65,7 @@ input[type="color"] {
     font-family: 'Gluten', cursive;
     /* color: #d8e2dc; */
     font-size: 50px;
-    margin: 0px 39%;
+    margin: 0px auto;
     background-image: linear-gradient(to right, #3a86ff, #8338ec, #ff006e, #fb5607, #ffbe0b, #0aff99);
     -webkit-background-clip: text;
     -moz-background-clip: text;
